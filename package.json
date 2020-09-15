@@ -1,0 +1,17 @@
+{
+	"name": "cici-cli-test",
+	"version": "0.0.1",
+	"main": "index.js",
+	"description": "a init cli",
+	"author": "Cici Zhang",
+	"license": "Apache-2.0",
+	"bin": {
+		"cici-cli-test": "./src/bin/cici-cli-test.js"
+	},
+	"dependencies": {
+		"chalk": "^3.0.0",
+		"commander": "^4.0.1",
+		"dedent": "^0.7.0",
+		"inquirer": "^7.0.1"
+	}
+}
